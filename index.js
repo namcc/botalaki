@@ -26,7 +26,7 @@ function run() {
     try {
       if (message.includes("Hãy nhập lệnh : /login < mật khẩu của bạn> để vào server")) {
         setTimeout(() => {
-          bot.chat(`/login 12121212`); // Chat command to log in
+          bot.chat(`/login `); // Chat command to log in
           console.log(" Đã đăng nhập");
         }, 1000); // Wait for 5 seconds before logging in
       }
